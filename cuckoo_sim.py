@@ -269,7 +269,8 @@ def main(stdscr):
                         logging.error(f"CRASH: Table Cycle at Key {addr:02} (Load: {cuckoo.get_load_factor():.1f}%) - {mode_name} - TABLES FULL")
 
         # --- DRAWING ---
-        stdscr.clear()
+        #stdscr.clear()
+        stdscr.erase()
         draw_box(stdscr, 1, 2, TABLE_SIZE + 2, 22, "TABLE 1")
         for i in range(TABLE_SIZE):
             val = cuckoo.table1[i]
