@@ -1,0 +1,22 @@
+# Binary executables
+original
+dary
+stash
+blocked
+original_gcc
+original_ccc
+dary_gcc
+dary_ccc
+stash_gcc
+stash_ccc
+blocked_gcc
+blocked_ccc
+sort_models
+cuckoo_testbed
+
+# Python caches
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
